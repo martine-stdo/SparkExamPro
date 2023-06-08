@@ -1,0 +1,587 @@
+2023.06.07 22:48:07 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter' for client Visual Studio Code 1.78.2.
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:C:\Users\20624\Desktop\SparkExam\DataFilter\.metals\metals (H2 2.1)
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+信息: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.019s)
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+信息: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": << Empty Schema >>
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "1 - Create tables"
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "2 - Server discovery"
+6月 07, 2023 10:48:07 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+6月 07, 2023 10:48:08 下午 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+信息: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+6月 07, 2023 10:48:08 下午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.063s)
+2023.06.07 22:48:08 INFO  time: initialize in 0.64s
+2023.06.07 22:48:10 WARN  Build server is not auto-connectable.
+2023.06.07 22:48:10 WARN  no build tool detected in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.07 22:48:10 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\test.scala
+2023.06.07 22:48:18 INFO  no build target found for C:\Users\20624\Desktop\SparkExam\DataFilter\test.scala. Using presentation compiler with project's scala-library version: 3.2.2
+6月 07, 2023 10:48:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 4
+6月 07, 2023 10:48:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 3
+6月 07, 2023 10:48:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1
+6月 07, 2023 10:48:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 17
+6月 07, 2023 10:48:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 13
+2023.06.07 22:48:19 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\test.scala
+2023.06.07 22:48:20 INFO  time: code lens generation in 10s
+2023.06.07 22:48:20 INFO  time: code lens generation in 1.6s
+2023.06.07 22:48:20 INFO  time: code lens generation in 2.03s
+2023.06.07 22:48:20 INFO  time: code lens generation in 2.12s
+2023.06.08 07:58:07 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter' for client Visual Studio Code 1.78.2.
+6月 08, 2023 7:58:07 上午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+6月 08, 2023 7:58:07 上午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+6月 08, 2023 7:58:07 上午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+6月 08, 2023 7:58:11 上午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:C:\Users\20624\Desktop\SparkExam\DataFilter\.metals\metals (H2 2.1)
+6月 08, 2023 7:58:11 上午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.030s)
+6月 08, 2023 7:58:11 上午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": 4
+6月 08, 2023 7:58:11 上午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.08 07:58:11 INFO  time: initialize in 4.01s
+2023.06.08 07:58:13 WARN  Build server is not auto-connectable.
+2023.06.08 07:58:13 WARN  no build tool detected in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.08 07:58:13 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\test.scala
+2023.06.08 07:58:17 INFO  no build target found for C:\Users\20624\Desktop\SparkExam\DataFilter\test.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.08 08:39:03 INFO  Shutting down server
+2023.06.08 08:39:03 INFO  shutting down Metals
+2023.06.08 08:39:03 INFO  Exiting server
+2023.06.08 12:36:18 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter' for client Visual Studio Code 1.78.2.
+6月 08, 2023 12:36:19 下午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+6月 08, 2023 12:36:19 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+6月 08, 2023 12:36:19 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+6月 08, 2023 12:36:19 下午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:C:\Users\20624\Desktop\SparkExam\DataFilter\.metals\metals (H2 2.1)
+6月 08, 2023 12:36:19 下午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.028s)
+6月 08, 2023 12:36:19 下午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": 4
+6月 08, 2023 12:36:19 下午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.08 12:36:19 INFO  time: initialize in 0.55s
+2023.06.08 12:36:21 WARN  Build server is not auto-connectable.
+2023.06.08 12:36:21 WARN  no build tool detected in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.08 12:36:21 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:24 INFO  no build target found for C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.08 12:36:26 INFO  time: code lens generation in 5.82s
+2023.06.08 12:36:36 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:39 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:41 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:42 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:45 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:47 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:49 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:52 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:54 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:56 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:36:58 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:37:00 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:37:25 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:37:30 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:37:35 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:46:46 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:47:10 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:47:12 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:47:23 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:47:33 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:47:36 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:48:47 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:48:49 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:49:03 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:49:04 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:49:06 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:49:23 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:49:33 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:49:35 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:49:57 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:49:59 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:52:12 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:52:13 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:52:15 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:52:18 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:53:19 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:53:23 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:53:25 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:53:27 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:53:30 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:53:32 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:53:38 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:53:39 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:31 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:38 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:40 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:42 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:43 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:45 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:48 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:50 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:55 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:55:57 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+6月 08, 2023 12:55:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 540
+2023.06.08 12:56:03 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:56:06 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 12:56:08 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:15:37 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:15:42 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:15:45 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:15:47 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:15:50 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:15:53 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:15:55 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:15:56 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:16:01 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 13:52:32 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 13:52:40 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 13:53:09 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 13:53:11 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 13:53:13 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 13:53:41 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 13:53:44 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 13:53:46 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+6月 08, 2023 1:54:29 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 867
+2023.06.08 13:54:29 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 13:54:30 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 14:32:26 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 14:32:41 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 14:33:16 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 14:36:16 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+6月 08, 2023 2:36:42 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: Toplevel definition df is defined in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/data_groupAndWordcount.scala
+and also in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/animation_wordcount.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition df is defined in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/data_groupAndWordcount.scala
+and also in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/animation_wordcount.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:937)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:62)
+
+2023.06.08 14:36:43 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:36:48 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:36:52 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:36:53 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:36:57 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:37:06 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:37:09 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:37:31 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:37:35 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:37:50 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:37:52 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:38:07 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:38:11 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:38:17 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:38:25 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:38:31 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:38:32 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:38:38 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:38:52 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:39:06 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:39:11 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:39:12 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:39:24 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:39:34 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:39:38 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:39:49 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:41:05 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:41:26 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:41:59 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:42:02 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:42:12 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:42:13 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:42:18 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:42:22 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:42:48 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:42:50 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:43:16 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:43:19 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:43:34 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:43:38 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:43:46 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:43:54 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:44:03 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:44:09 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:44:25 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:44:30 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:44:38 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:44:43 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:44:46 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:44:53 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:45:03 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:45:08 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:45:10 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:45:11 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:46:34 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:46:36 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:46:41 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:46:46 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:46:48 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:00 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:04 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:09 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:11 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:14 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+6月 08, 2023 2:47:15 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1783
+2023.06.08 14:47:17 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:21 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:24 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:30 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:31 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:33 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:35 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 14:47:40 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 15:41:33 INFO  Shutting down server
+2023.06.08 15:41:33 INFO  shutting down Metals
+2023.06.08 15:41:33 INFO  Exiting server
+2023.06.08 16:16:40 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter' for client Visual Studio Code 1.78.2.
+6月 08, 2023 4:16:40 下午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+6月 08, 2023 4:16:40 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+6月 08, 2023 4:16:40 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+6月 08, 2023 4:16:40 下午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:C:\Users\20624\Desktop\SparkExam\DataFilter\.metals\metals (H2 2.1)
+6月 08, 2023 4:16:40 下午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.020s)
+6月 08, 2023 4:16:40 下午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": 4
+6月 08, 2023 4:16:40 下午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.08 16:16:40 INFO  time: initialize in 0.56s
+2023.06.08 16:16:42 WARN  Build server is not auto-connectable.
+2023.06.08 16:16:42 WARN  no build tool detected in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.08 16:16:42 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala
+2023.06.08 16:16:46 INFO  no build target found for C:\Users\20624\Desktop\SparkExam\DataFilter\data_groupAndWordcount.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.08 16:16:48 INFO  time: code lens generation in 6.22s
+2023.06.08 16:16:48 INFO  time: code lens generation in 3.44s
+2023.06.08 16:17:10 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 16:20:28 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 16:25:28 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:25:31 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:25:48 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:25:50 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:25:52 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:00 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:01 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:06 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:11 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:12 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:17 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:18 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:22 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:30 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:35 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:39 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:46 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:47 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:26:51 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:01 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:10 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:20 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:32 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:35 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:37 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:39 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:41 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:42 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:27:45 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+6月 08, 2023 4:27:50 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: Toplevel definition spark is defined in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/data_groupAndWordcount.scala
+and also in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/rank.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition spark is defined in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/data_groupAndWordcount.scala
+and also in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/rank.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:53)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:33)
+
+2023.06.08 16:28:09 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:28:25 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:28:30 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:28:31 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:28:45 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:28:47 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:28:49 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:28:50 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:28:53 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:33:31 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:33:37 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:33:39 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:33:41 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:33:44 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:33:46 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:33:53 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:33:58 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:00 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:03 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:06 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:08 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:11 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:11 WARN  Using indexes to guess the definition of firstSeasonStart
+2023.06.08 16:34:12 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:41 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:45 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:46 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:34:49 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:02 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:04 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:06 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:07 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:08 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:10 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:13 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:15 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+6月 08, 2023 4:36:16 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 710
+2023.06.08 16:36:16 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:19 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:21 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:22 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+6月 08, 2023 4:36:25 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 756
+2023.06.08 16:36:27 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:32 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:36 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:40 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:36:41 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:37:38 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:37:49 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:37:52 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:37:53 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:38:24 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 16:38:25 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 17:05:54 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:05:57 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:00 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:04 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:05 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:07 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:10 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:11 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:13 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:16 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:26 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:28 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:29 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:06:34 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+6月 08, 2023 5:08:47 下午 scala.meta.internal.pc.CompilerAccess handleError
+严重: Toplevel definition df is defined in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/animation_wordcount.scala
+and also in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/seasonSort.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition df is defined in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/animation_wordcount.scala
+and also in
+  C:/Users/20624/Desktop/SparkExam/DataFilter/seasonSort.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:53)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:33)
+
+2023.06.08 17:08:49 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:08:51 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:08:53 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:08:56 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:09:02 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:09:04 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 17:27:47 INFO  Shutting down server
+2023.06.08 17:27:47 INFO  shutting down Metals
+2023.06.08 17:27:47 INFO  Exiting server
+2023.06.08 18:02:33 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter' for client Visual Studio Code 1.78.2.
+6月 08, 2023 6:02:33 下午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+6月 08, 2023 6:02:33 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+6月 08, 2023 6:02:33 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+6月 08, 2023 6:02:34 下午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:C:\Users\20624\Desktop\SparkExam\DataFilter\.metals\metals (H2 2.1)
+6月 08, 2023 6:02:34 下午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.028s)
+6月 08, 2023 6:02:34 下午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": 4
+6月 08, 2023 6:02:34 下午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.08 18:02:34 INFO  time: initialize in 0.59s
+2023.06.08 18:02:36 WARN  Build server is not auto-connectable.
+2023.06.08 18:02:36 WARN  no build tool detected in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.08 18:02:36 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 18:02:40 INFO  no build target found for C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.08 18:02:42 INFO  time: code lens generation in 5.87s
+2023.06.08 19:15:54 INFO  Shutting down server
+2023.06.08 19:15:54 INFO  shutting down Metals
+2023.06.08 19:15:54 INFO  Exiting server
+2023.06.08 20:58:13 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter' for client Visual Studio Code 1.78.2.
+6月 08, 2023 8:58:13 下午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+6月 08, 2023 8:58:13 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+6月 08, 2023 8:58:13 下午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+6月 08, 2023 8:58:13 下午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:C:\Users\20624\Desktop\SparkExam\DataFilter\.metals\metals (H2 2.1)
+6月 08, 2023 8:58:13 下午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.022s)
+6月 08, 2023 8:58:13 下午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": 4
+6月 08, 2023 8:58:13 下午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.08 20:58:13 INFO  time: initialize in 0.52s
+2023.06.08 20:58:16 WARN  Build server is not auto-connectable.
+2023.06.08 20:58:16 WARN  no build tool detected in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.08 20:58:16 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 20:58:18 INFO  no build target found for C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.08 20:58:20 INFO  time: code lens generation in 4.64s
+6月 08, 2023 9:04:41 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2023.06.08 21:21:34 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 21:40:17 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 21:40:27 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 21:42:18 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+6月 08, 2023 9:48:01 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+6月 08, 2023 9:48:03 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2023.06.08 22:02:09 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonSort.scala
+2023.06.08 22:06:13 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 22:06:50 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 22:07:33 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 22:13:19 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\animation_wordcount.scala
+2023.06.08 22:17:59 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 22:18:16 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\rank.scala
+2023.06.08 22:18:17 WARN  no build target for: C:\Users\20624\Desktop\SparkExam\DataFilter\seasonMerge.scala
+2023.06.08 23:31:28 INFO  Shutting down server
+2023.06.08 23:31:28 INFO  shutting down Metals
+2023.06.08 23:31:28 INFO  Exiting server
