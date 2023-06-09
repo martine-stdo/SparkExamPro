@@ -585,3 +585,24 @@ One of these files should be removed from the classpath.
 2023.06.08 23:31:28 INFO  Shutting down server
 2023.06.08 23:31:28 INFO  shutting down Metals
 2023.06.08 23:31:28 INFO  Exiting server
+2023.06.09 11:01:00 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter' for client Visual Studio Code 1.79.0.
+6月 09, 2023 11:01:00 上午 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+信息: Flyway Community Edition 9.16.3 by Redgate
+6月 09, 2023 11:01:00 上午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: See release notes here: https://rd.gt/416ObMi
+6月 09, 2023 11:01:00 上午 org.flywaydb.core.internal.license.VersionPrinter printVersion
+信息: 
+6月 09, 2023 11:01:01 上午 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+信息: Database: jdbc:h2:file:C:\Users\20624\Desktop\SparkExam\DataFilter\.metals\metals (H2 2.1)
+6月 09, 2023 11:01:01 上午 org.flywaydb.core.internal.command.DbValidate validate
+信息: Successfully validated 4 migrations (execution time 00:00.022s)
+6月 09, 2023 11:01:01 上午 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+信息: Current version of schema "PUBLIC": 4
+6月 09, 2023 11:01:01 上午 org.flywaydb.core.internal.command.DbMigrate logSummary
+信息: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.09 11:01:01 INFO  time: initialize in 0.6s
+2023.06.09 11:01:02 WARN  Build server is not auto-connectable.
+2023.06.09 11:01:02 WARN  no build tool detected in workspace 'C:\Users\20624\Desktop\SparkExam\DataFilter'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.09 11:05:10 INFO  Shutting down server
+2023.06.09 11:05:10 INFO  shutting down Metals
+2023.06.09 11:05:10 INFO  Exiting server
